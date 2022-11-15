@@ -30,21 +30,12 @@ mkdir -p %{buildroot}%{_datadir}
 cp -a texmf-dist %{buildroot}%{_datadir}
 
 %files
-%{_texmfdistdir}/texmf-dist/tex/latex/asymptote
-%{_texmfdistdir}/texmf-dist/tex/context/third/asymptote
-%{_texmfdistdir}/texmf-dist/asymptote
-%doc %{_texmfdistdir}/texmf-dist/doc/asymptote
-%{_texmfdistdir}/texmf-dist
-%{_texmfdistdir}/texmf-dist/doc
-%doc %{_texmfdistdir}/texmf-dist/doc/man
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/xasy.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/xasy.1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/asy.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/asy.1
-%doc %{_texmfdistdir}/texmf-dist/doc/info
-%doc %{_texmfdistdir}/texmf-dist/doc/info/asymptote.info
-%doc %{_texmfdistdir}/texmf-dist/doc/info/asy-faq.info
+%{_texmfdistdir}/tex/latex/asymptote
+%{_texmfdistdir}/tex/context/third/asymptote
+%{_texmfdistdir}/asymptote
+%doc %{_texmfdistdir}/doc/asymptote
+%doc %{_texmfdistdir}/doc/man/man1/*
+%doc %{_texmfdistdir}/doc/info/*
 
 %post -p %{_sbindir}/texlive.post
 
