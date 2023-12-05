@@ -1,6 +1,6 @@
 Name:		texlive-asymptote
-Version:	64491
-Release:	2
+Version:	67300
+Release:	1
 Summary:	2D and 3D TeX-Aware Vector Graphics Language
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/asymptote
