@@ -3,7 +3,7 @@ Version:	72097
 Release:	1
 Summary:	2D and 3D TeX-Aware Vector Graphics Language
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/asymptote
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/asymptote
 License:	lgpl3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/asymptote.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/asymptote.doc.r%{version}.tar.xz
