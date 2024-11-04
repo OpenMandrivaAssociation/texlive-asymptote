@@ -1,5 +1,5 @@
 Name:		texlive-asymptote
-Version:	72097
+Version:	72638
 Release:	1
 Summary:	2D and 3D TeX-Aware Vector Graphics Language
 Group:		Publishing
